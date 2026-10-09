@@ -6,9 +6,9 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     # Prints to the server log console on Render
-    print("Hello, World!")
+    print("Hello, World! I like apple")
     # Displays in the web browser when someone visits your Render URL
-    return "Hello, World!"
+    return "Hello, World! I like apple"
 
 if __name__ == "__main__":
     # Render assigns a dynamic PORT environment variable
